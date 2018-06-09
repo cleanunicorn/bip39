@@ -1,3 +1,96 @@
+# 0.3.7
+
+* Update AXE network parameters
+* Add new networks - Xuez, BTCP, BTCZ, ZCL, ZEN
+* Add litecoin bech32 params
+* Fix BIP38 for altcoins
+* Fix missing span closing tag
+* Add indicator to UI for when BIP84 is unavailable
+* Replace hasSegwit variable with test for segwit params
+* Allow xpub to be used as root key for segwit derivations
+* Add visual privacy safeguard
+
+# 0.3.6
+
+* Add Kobocoin
+* Update Vertcoin version byte and segwit support
+* Add Zcash
+* Korean mnemonics use ascii spaces
+* Add CashAddr address format for bitcoin cash
+
+# 0.3.5
+
+* Fix typo
+* Add Neblio network
+* Update bitcoinjs-lib from 3.3.0 to 3.3.2
+* Add Beetle Coin
+* Add segwit for bitcoin testnet and Fujicoin
+* Set coin number for Bitcoin God to 156
+* Add coins supported by coinomi
+* Warn when generating low entropy mnemonics
+* Warn when overriding weak entropy with a strong mnemonic length
+
+# 0.3.4
+
+* Add BlackCoin
+* Add Denarius
+* Raw entropy shows groupings with space every 11 bits
+* Checksum shown in entropy details
+* Warn that entropy values should exclude checksum
+* Add Korean language
+
+# 0.3.3
+
+* Add AXE network
+* Ethereum private key generation bugfix
+* Add BIP38 support
+* Allow initial number of rows to be set by the user
+
+# 0.3.2
+
+* Add Onixcoin
+* Add Komodo
+* BIP84 tab for derivation path
+* CSV tab for derived addresses
+
+# 0.3.1
+
+* Populate entropy field with hex value used from PRNG
+* Show list of word indexes
+* Fix typos
+* Update jquery from 2.1.1 to 3.2.1
+* Update bootstrap from 3.2.0 to 3.3.7
+* Move application-specific css into own file
+* QR codes with accents work correctly by replacing jquery.qrcode with kjua
+
+# 0.3.0
+
+* Update bitcoinjs from 3.1.1 to 3.3.0
+* Litecoin defaults to ltub instead of xpub
+* Segwit option removed from bip32 tab
+* BIP141 tab added for full segwit compatibility
+
+# 0.2.9
+
+* Update links from old site to new site
+* Add Monacoin
+* Add Bitcoin Gold
+* Port test suite to selenium
+* Allow more rows to be generated starting from a custom index
+
+# 0.2.8
+
+* Enable segwit for Litecoin
+* BitPay-style addresses for Bitcoin Cash
+* Use new xpub/xprv prefixes for Segwit BIP49
+* Add nubits network
+
+# 0.2.7
+
+* Add Fujicoin
+* List alternative tools
+* Remove unused translations and library
+
 # 0.2.6
 
 * Detect and warn when entropy is filtered / discarded
