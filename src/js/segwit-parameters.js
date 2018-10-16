@@ -133,4 +133,58 @@ bitcoinjs.bitcoin.networks.vertcoin.p2wpkhInP2sh = {
     wif: 0x80
 };
 
+bitcoinjs.bitcoin.networks.bgold.p2wpkh = {
+    baseNetwork: "bgold",
+    messagePrefix: '\x1DBitcoin Gold Signed Message:\n',
+    bech32: 'btg',
+    bip32: {
+        public: 0x04b24746,
+        private: 0x04b2430c
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x17,
+    wif: 0x80,
+};
+
+bitcoinjs.bitcoin.networks.bgold.p2wpkhInP2sh = {
+    baseNetwork: "bgold",
+    messagePrefix: '\x1DBitcoin Gold Signed Message:\n',
+    bech32: 'btg',
+    bip32: {
+        public: 0x049d7cb2,
+        private: 0x049d7878
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x17,
+    wif: 0x80,
+};
+
+bitcoinjs.bitcoin.networks.digibyte.p2wpkh = {
+    baseNetwork: "digibyte",
+	messagePrefix: '\x18DigiByte Signed Message:\n',
+    bech32: 'dgb',
+    bip32: {
+		public: 0x0488B21E,
+		private: 0x0488ADE4
+    },
+    pubKeyHash: 0x1e,
+    scriptHash: 0x3f,
+    wif: 0x80
+};
+
+bitcoinjs.bitcoin.networks.digibyte.p2wpkhInP2sh = {
+    baseNetwork: "digibyte",	
+	messagePrefix: '\x18DigiByte Signed Message:\n',
+    bech32: 'dgb',
+    bip32: {
+		public: 0x0488B21E,
+		private: 0x0488ADE4
+    },
+    pubKeyHash: 0x1e,
+    scriptHash: 0x3f,
+    wif: 0x80
+};
+
+    
+    
 })();

@@ -704,10 +704,17 @@ it('Allows selection of Bitcoinz', function(done) {
     };
     testNetwork(done, params);
 });
+it('Allows selection of BitCloud', function(done) {
+    var params = {
+        selectText: "BTDX - BitCloud",
+        firstAddress: "BE9tnWxiR7ALgVhG8LLDi2W9pvtjzZMFoM",
+    };
+    testNetwork(done, params);
+});
 it('Allows selection of Bitcore', function(done) {
     var params = {
         selectText: "BTX - Bitcore",
-        firstAddress: "1Dg18EtqhReS11e9h8khkLjWGLHVjPM2AB",
+        firstAddress: "2Rgp5Znhpy34TK4QmPkfCiYs9r4KovfTH9",
     };
     testNetwork(done, params);
 });
@@ -956,6 +963,13 @@ it('Allows selection of Lynx', function(done) {
     };
     testNetwork(done, params);
 });
+it('Allows selection of Megacoin', function(done) {
+    var params = {
+        selectText: "MEC - Megacoin",
+        firstAddress: "MHHRRPHcF8DvQpEySFF9M6fR8Qv4JH2fFC",
+    };
+    testNetwork(done, params);
+});
 it('Allows selection of Minexcoin', function(done) {
     var params = {
         selectText: "MNX - Minexcoin",
@@ -1075,6 +1089,12 @@ it('Allows selection of Rubycoin', function(done) {
     };
     testNetwork(done, params);
 });
+it('Allows selection of Salus', function(done) {
+    var params = {
+        selectText: "SLS - Salus",
+        firstAddress: "SgdYBmVytcW2aCYitdegwkUcCU7RSqYokB",
+    };
+});
 it('Allows selection of Smileycoin', function(done) {
     var params = {
         selectText: "SMLY - Smileycoin",
@@ -1089,10 +1109,31 @@ it('Allows selection of Solarcoin', function(done) {
     };
     testNetwork(done, params);
 });
+it('Allows selection of stash', function(done) {
+    var params = {
+        selectText: "STASH - Stash",
+        firstAddress: "XxwAsWB7REDKmAvHA85SbEZQQtpxeUDxS3",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of stash testnet', function(done) {
+    var params = {
+        selectText: "STASH - Stash Testnet",
+        firstAddress: "YdbhtMuGsPSkE6bPdNTHoFSszQKmK4S5LT",
+    };
+    testNetwork(done, params);
+});
 it('Allows selection of Stratis', function(done) {
     var params = {
         selectText: "STRAT - Stratis",
         firstAddress: "ScfJnq3QDhKgDMEds6sqUE1ot6ShfhmXXq",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Stratis Test', function(done) {
+    var params = {
+        selectText: "TSTRAT - Stratis Testnet",
+        firstAddress: "TRLWm3dye4FRrDWouwYUSUZP96xb76mBE3",
     };
     testNetwork(done, params);
 });
@@ -1205,6 +1246,90 @@ it('Allows selection of Energi', function(done) {
     var params = {
         selectText: "NRG - Energi",
         firstAddress: "EejRy4t4nidzhGGzkJUgFP3z4HYBjhTsRt",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Ethereum Classic', function(done) {
+    var params = {
+        selectText: "ETC - Ethereum Classic",
+        firstAddress: "0x3c05e5556693808367afB62eF3b63e35d6eD249A",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Pirl', function(done) {
+    var params = {
+        selectText: "PIRL - Pirl",
+        firstAddress: "0xe77FC0723dA122B5025CA79193c28563eB47e776",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of MIX', function(done) {
+    var params = {
+        selectText: "MIX - MIX",
+        firstAddress: "0x98BC5e63aeb6A4e82d72850d20710F07E29A29F1",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Musicoin', function(done) {
+    var params = {
+        selectText: "MUSIC - Musicoin",
+        firstAddress: "0xDc060e4A0b0313ea83Cf6B3A39B9db2D29004897",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Poa', function(done) {
+    var params = {
+        selectText: "POA - Poa",
+        firstAddress: "0x53aF28d754e106210C3d0467Dd581eaf7e3C5e60",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Expanse', function(done) {
+    var params = {
+        selectText: "EXP - Expanse",
+        firstAddress: "0xf57FeAbf26582b6E3E666559d3B1Cc6fB2b2c5F6",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Callisto', function(done) {
+    var params = {
+        selectText: "CLO - Callisto",
+        firstAddress: "0x4f9364F7420B317266C51Dc8eB979717D4dE3f4E",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of HUSH', function(done) {
+    var params = {
+        selectText: "HUSH - Hush",
+        firstAddress: "t1g6rLXUnJaiJuu4q4zmJjoa9Gk4fwKpiuA",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of ExchangeCoin', function(done) {
+    var params = {
+        selectText: "EXCC - ExchangeCoin",
+        firstAddress: "22txYKpFN5fwGwdSs2UBf7ywewbLM92YqK7E",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of Artax', function(done) {
+    var params = {
+        selectText: "XAX - Artax",
+        firstAddress: "AYxaQPY7XLidG31V7F3yNzwxPYpYzRqG4q",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of BitcoinGreen', function(done) {
+    var params = {
+        selectText: "BITG - Bitcoin Green",
+        firstAddress: "GeNGm9SkEfwbsws3UrrUSE2sJeyWYjzraY",
+    };
+    testNetwork(done, params);
+});
+it('Allows selection of ANON', function(done) {
+    var params = {
+        selectText: "ANON - ANON",
+        firstAddress: "AnU6pijpEeUZFWSTyM2qTqZQn996Zq1Xard",
     };
     testNetwork(done, params);
 });
@@ -2821,6 +2946,13 @@ it('Can set the derivation path on bip32 tab for multibit', function(done) {
         useHardenedAddresses: null,
     });
 });
+it('Can set the derivation path on bip32 tab for coinomi/ledger', function(done) {
+    testClientSelect(done, {
+        selectValue: "3",
+        bip32path: "m/44'/0'/0'",
+        useHardenedAddresses: null,
+    });
+});
 
 // github issue 58
 // https://github.com/iancoleman/bip39/issues/58
@@ -3641,23 +3773,6 @@ it('Does not show a warning if entropy is stronger than mnemonic length', functi
             expect(classes).toContain("hidden");
             done();
         });
-});
-
-it('Shows a warning for litecoin BIP84 (which does not have p2wpkh params)', function(done) {
-    driver.findElement(By.css('.phrase'))
-        .sendKeys('abandon abandon ability');
-    selectNetwork("LTC - Litecoin");
-    driver.findElement(By.css('#bip84-tab a'))
-        .click()
-    // bip84 unavailable is shown
-    driver.sleep(feedbackDelay).then(function() {
-        driver.findElement(By.css('#bip84 .unavailable'))
-            .getAttribute("class")
-            .then(function(classes) {
-                expect(classes).not.toContain("hidden");
-                done();
-            });
-    });
 });
 
 it('Shows litecoin BIP49 addresses', function(done) {
